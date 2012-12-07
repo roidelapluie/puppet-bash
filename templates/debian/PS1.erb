@@ -1,5 +1,5 @@
 # Check if we are in an interactive shell
 if [ -n "$PS1" ];
 then
- PS1='${debian_chroot:+($debian_chroot)}\u@<% if show_fqdn %>$(hostname --fqdn)<% else %>\h<% end %>:\w\$ '
+  PS1='${debian_chroot:+($debian_chroot)}\u@<% if show_fqdn %><%= scope.lookupvar('::fqdn') %><% else %>\h<% end %>:\w\$ '
 fi
