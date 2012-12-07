@@ -8,7 +8,7 @@ class bash::params {
        $ps1_template = "${module_name}/debian/PS1.erb"
      }
      default: {
-       $ps1_template = "${module_name}/centos/PS1.erb"
+       fail "Operatingsystem $::operatingsystem is not supported."
      }
   }
 
