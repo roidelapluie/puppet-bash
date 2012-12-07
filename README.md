@@ -19,7 +19,7 @@ Problems
 
 \H in the PS1 prompt prints the hostname instead of the FQDN on some hosts. This is due to /etc/hostname or /etc/sysconfig/network configuration.
 
-We use $(hostname -f) for the moment
+We use $::fqdn instead.
 
 Tricks about Debian
 ---
