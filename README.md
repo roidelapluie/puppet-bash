@@ -27,6 +27,5 @@ Usage
 class{
   'bash':
     show_fqdn => true,
-  }
 }
 ```
