@@ -1,3 +1,5 @@
+# == Class: bash
+#
 class bash (
   $show_fqdn    = $bash::params::show_fqdn,
   $ps1_template = $bash::params::ps1_template,
