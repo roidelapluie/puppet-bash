@@ -14,4 +14,7 @@ class bash::params {
     }
   }
 
+  $histformat = '%F %T '
+  $histsize   = '10000'
+
 }
