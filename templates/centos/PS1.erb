@@ -1,5 +1,5 @@
 # Check if we are in an interactive shell
 if [ -n "$PS1" ];
 then
-  PS1='[\u@<% if show_fqdn %><%= scope.lookupvar('::fqdn') %><% else %>\h<% end %> \W]\$ '
+  PS1='[\u@<% if @show_fqdn %><%= scope.lookupvar('::fqdn') %><% else %>\h<% end %> \W]\$ '
 fi
