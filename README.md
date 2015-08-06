@@ -1,6 +1,8 @@
 Puppet module to manage PS1 prompt
 ===
 
+[![Build Status](https://travis-ci.org/roidelapluie/puppet-bash.svg?branch=master)](https://travis-ci.org/Inuits/puppet-bash)
+
 The initial goal of this module is to manage PS1 prompt of bash shell, in order to change the hostname by the FQDN.
 
 How it works
